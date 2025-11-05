@@ -8,3 +8,5 @@ export const test = base.extend<{loginPage: LoginPage}>({
         await use(loginPage);
     }
 });
+
+export {expect} from "@playwright/test";
